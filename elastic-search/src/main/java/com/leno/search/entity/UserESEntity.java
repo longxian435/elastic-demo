@@ -1,6 +1,7 @@
 package com.leno.search.entity;
 
 import lombok.Data;
+import lombok.EqualsAndHashCode;
 
 import java.util.Date;
 
@@ -11,6 +12,7 @@ import java.util.Date;
  * @date: 2018年01月31日
  */
 @Data
+@EqualsAndHashCode(callSuper = false)
 public class UserESEntity extends BaseEntity {
 
 
